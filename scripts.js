@@ -275,3 +275,6 @@ let myFunction = function(){
     console.log("Hello world")
 }
 console.log(typeof heros);
+console.log(typeof value);
+console.log(typeof myFunction);
+console.log(typeof food);
