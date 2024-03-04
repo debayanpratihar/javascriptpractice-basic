@@ -970,5 +970,5 @@ downloadZipButton.addEventListener("click", function (e) {
     });
   });
 
-  // loaderbody.style.display = "none";
+  
 });
