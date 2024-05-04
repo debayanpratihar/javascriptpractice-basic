@@ -973,3 +973,34 @@ total = food + tipAmount*/
   
 // });
 
+// Reversing a string
+/*var str = "Hello World";
+var res = str.split(" ")
+.map(function(word){
+    return word.split("").reverse().join("");
+});
+console.log(res.join(" "));*/
+
+// arry of objects
+/*function check(obj){
+ return Array.isArray(obj) ? "Array" : "Object";
+}
+
+console.log(check([]));
+console.log(check({}));*/
+
+// make an array empty
+
+/*arr=[2,3,4,5,6,7,8,9];
+arr.length=0;
+console.log(arr);*/
+
+// check if a number is a interger
+
+var a = 12;
+if(a%1!== 0){
+    console.log("Not an Integer");
+}
+else{
+  console.log("Integer");
+}
