@@ -997,10 +997,22 @@ console.log(arr);*/
 
 // check if a number is a interger
 
-var a = 12;
+/*var a = 12;
 if(a%1!== 0){
     console.log("Not an Integer");
 }
 else{
   console.log("Integer");
+}*/
+
+//palindromic string check
+
+/*function checkPalindrome(str){
+    return str == str.split("").reverse().join("");
+}
+console.log(checkPalindrome("loop"));*/
+
+// short a word alphabetically
+function alphabetOrder(str){
+    return str.split("").sort().join("");
 }
