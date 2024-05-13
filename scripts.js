@@ -1013,6 +1013,9 @@ else{
 console.log(checkPalindrome("loop"));*/
 
 // short a word alphabetically
-function alphabetOrder(str){
+/*function alphabetOrder(str){
     return str.split("").sort().join("");
 }
+console.log(alphabetOrder("debayan"));*/
+
+//capatilze the first letter of a string
