@@ -1019,3 +1019,7 @@ console.log(checkPalindrome("loop"));*/
 console.log(alphabetOrder("debayan"));*/
 
 //capatilze the first letter of a string
+// calculate the sum of an array
+function sum(arr){
+    return arr.reduce((acc,curr)=>acc+curr,0);
+}
