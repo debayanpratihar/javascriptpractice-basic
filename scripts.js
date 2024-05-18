@@ -1021,5 +1021,8 @@ console.log(alphabetOrder("debayan"));*/
 //capatilze the first letter of a string
 // calculate the sum of an array
 function sum(arr){
-    return arr.reduce((acc,curr)=>acc+curr,0);
-}
+//     return arr.reduce((acc,curr)=>acc+curr,0);
+// }
+
+
+// console.log(sum([1,2,3,4,5,6,7,8,9,10]));
