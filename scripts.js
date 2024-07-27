@@ -1026,4 +1026,16 @@ console.log(alphabetOrder("debayan"));*/
 
 
 // console.log(sum([1,2,3,4,5,6,7,8,9,10]));
-lets start git hub push
+// lets start git hub push
+// how many variables we create we have to store in shomewhere so that data we can store
+//in the heap memory
+//execution context
+//1. variables
+//2. function instide that parent function
+// 3. lexical environment of that function
+
+//in execution function when we call a function it creates a new execution context contaner
+//after that the function can call itself and create a new execution context
+function a(){
+    console.log("hi")
+}   
