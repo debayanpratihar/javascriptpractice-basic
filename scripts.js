@@ -1039,3 +1039,15 @@ console.log(alphabetOrder("debayan"));*/
 function a(){
     console.log("hi")
 }   
+
+
+function b(){
+    a()
+}
+
+// calculation of theree numbers
+
+function sum(a,b,c){
+    return a+b+c;
+}
+console.log(sum(1,2,3));
