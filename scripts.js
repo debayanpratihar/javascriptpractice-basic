@@ -1036,18 +1036,42 @@ console.log(alphabetOrder("debayan"));*/
 
 //in execution function when we call a function it creates a new execution context contaner
 //after that the function can call itself and create a new execution context
-function a(){
-    console.log("hi")
-}   
+// execution contex is a container that stores all the variables and functions. Ant its always created when a function is called
+//lexical environment is the environment where the function is written
+// var a = [1,2,3,4,5,6,7,8,9,10];
+// var b = [...a];// spread operator
 
+// b.pop();
 
-function b(){
-    a()
-}
+// in js any thing is mainly in 2 types er modhhe jekono ek prokar ke belong kore
+// falsy values = 0 false undefined null NaN doucumnet.all
+// truthy values = 1 true any number except 0, any string except empty string, any object, any array, any function
+// if(document.all){
+//     console.log("Truthy")
+// }else{
+//     console.log("Falsy")
+// }
+//foreach loof is used to iterate over an array
+// var a = [1,2,3,4,5,6,7,8,9,10];
+// a.forEach(function(value,index, val){
+//     console.log(value+2,index, val);
+// })
 
-// calculation of theree numbers
+//objects par loop karane ke liye hota hai for in loop
 
-function sum(a,b,c){
-    return a+b+c;
-}
-console.log(sum(1,2,3));
+// var obj = {
+//     name: "Debayan",
+//     age: 23,
+//     city: "Kolkata"
+// }
+
+// for(var key in obj){
+//     console.log(key,obj[key]);
+// }
+
+//callback functions
+//jokhon amra ekta function ke argument hisebe pass kori arekta function ke callback function bole
+setTimeout(function(){
+    console.log("Hello") // asychronous js
+},2000)
+
