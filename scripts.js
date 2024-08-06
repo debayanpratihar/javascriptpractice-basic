@@ -1071,7 +1071,14 @@ console.log(alphabetOrder("debayan"));*/
 
 //callback functions
 //jokhon amra ekta function ke argument hisebe pass kori arekta function ke callback function bole
-setTimeout(function(){
-    console.log("Hello") // asychronous js
-},2000)
+// setTimeout(function(){
+//     console.log("Hello") // asychronous js
+// },2000)
+
+var str = "saree jahase achhaa hindustan hamara";
+var res = str.split(" ").forEach(function(word){
+    console.log(word.split("").reverse().join(""));
+})
+
+
 
