@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        table {
+            border: 1px solid blue;
+            background-color: yellow;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table with Rowspan and Colspan</h2>
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>SUBJECT</th>
+        <th>MARKS</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Hillary</td>
+        <td>Advanced Web</td>
+        <td>75</td>
+    </tr>
+    <tr>
+        <td>Operating System</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Lary</td>
+        <td>Advanced Web</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Operating System</td>
+        <td>75</td>
+    </tr>
+    <tr>
+        <td colspan="2">Total Average</td>
+        <td>72.5</td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1075,10 +1075,14 @@ console.log(alphabetOrder("debayan"));*/
 //     console.log("Hello") // asychronous js
 // },2000)
 
-var str = "saree jahase achhaa hindustan hamara";
-var res = str.split(" ").forEach(function(word){
-    console.log(word.split("").reverse().join(""));
-})
+// var str = "saree jahase achhaa hindustan hamara";
+// var res = str.split(" ").forEach(function(word){
+//     console.log(word.split("").reverse().join(""));
+// })
 
+
+var a = {};
+isAraay = Array.isArray(a);
+console.log(isAraay);
 
 
