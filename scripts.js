@@ -1081,8 +1081,19 @@ console.log(alphabetOrder("debayan"));*/
 // })
 
 
-var a = {};
-isAraay = Array.isArray(a);
-console.log(isAraay);
+// let length= prompt();
+// length = parseInt(length);
+// let array = new Array(length);
+// for(let i=0;i<length;i++){
+//     array[i] = prompt();
+// }
+// function getDuplicate(array) {
+//     var duplicate = array.filter((item, index) => array.indexOf(item) !== index);
+//     return length = duplicate.length;
+// }
+
+// console.log(getDuplicate(array));
+// Bob has a playlist of 
+//  songs, each song has a singer associated with it (denoted by an integer)
 
 
